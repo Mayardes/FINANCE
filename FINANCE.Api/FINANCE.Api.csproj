@@ -5,9 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FINANCE.Application\FINANCE.Application.csproj" />
     <ProjectReference Include="..\FINANCE.Domain\FINANCE.Domain.csproj" />
-    <ProjectReference Include="..\FINANCE.Infra.CrossCutting\FINANCE.Infra.CrossCutting.csproj" />
     <ProjectReference Include="..\FINANCE.Infra.Data\FINANCE.Infra.Data.csproj" />
+    <ProjectReference Include="..\FINANCE.Service\FINANCE.Service.csproj" />
   </ItemGroup>
 
 </Project>
